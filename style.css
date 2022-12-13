@@ -1,0 +1,31 @@
+
+.main_box{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+   
+}
+
+.text{
+    margin-top: 150px;
+    margin-left: 50px;
+    border: 2px solid red;
+    width: 400px;
+    height: 72px;
+}
+.text:hover{
+    cursor: pointer;
+}
+.flat_block{
+    display: none;
+    margin-top: 150px;
+    width: 400px;
+    height: 72px;
+    line-height:72px;
+    border: 2px solid red;
+    text-align:center ;
+   align-items: center;
+}
+.active {
+    display:block;
+}
